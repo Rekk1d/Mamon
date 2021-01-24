@@ -1,2 +1,2 @@
-body{font-family:"Ubuntu", sans-serif}
+body{font-family:"Ubuntu", sans-serif}.header{padding:57px 0 117px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header_name{font-size:24px;font-weight:700;color:#202020;margin-left:25px}.header_link{font-size:14px;font-weight:700;color:#202020}.header_link:not(:last-child){margin-right:37px}.header_active{background:#5528FF;border-radius:5px;padding:3px 14px;color:#fff}.header_active:hover{color:#fff}
 /*# sourceMappingURL=style.min.css.map */

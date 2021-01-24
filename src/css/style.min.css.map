@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,oBAAoB,CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/blocks/_general.sass",
+        "../sass/blocks/_header.sass",
+        "../sass/blocks/_about.sass",
+        "../sass/blocks/_services.sass",
+        "../sass/blocks/_clients.sass",
+        "../sass/blocks/_team.sass",
+        "../sass/blocks/_footer.sass"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

@@ -1,19 +1,46 @@
 .header
+    width: 100%
+    top: 0
+    left: 0
+    z-index: 50
     padding: 57px 0 117px 0
-    display: flex
-    justify-content: space-between
-    align-items: center
+    &:before
+        content: ''
+        position: absolute
+        top: 0 
+        left: 0
+        width: 100%
+        height: 100%
+        z-index: 2
+    &_body
+        position: relative
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_logo
+        position: relative
+        z-index: 3
     &_name
         font-size: 24px
         font-weight: 700
         color: $main-color
         margin-left: 25px
+        cursor: pointer
+        &:hover
+            text-decoration: none
+            color: #000
+    &_list
+        display: flex
+        position: relative
+        z-index: 2
+        li
+            list-style: none
+            &:not(:last-child)
+                margin-right: 37px
     &_link
         font-size: 14px
         font-weight: 700
         color: $main-color
-        &:not(:last-child)
-            margin-right: 37px
     &_active
         background: #5528FF
         border-radius: 5px
